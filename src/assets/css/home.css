@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    grid-gap: 2rem;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .grid-container img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .grid-container .photographer {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .grid-container button {
+    margin-top: 5px;
+  }  
